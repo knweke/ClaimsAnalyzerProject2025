@@ -1,0 +1,31 @@
+credentials:
+  usernames:
+    knweke:
+      email: knweke@axamansard.com
+      name: Kenechukwu Nweke
+      password: abc # To be replaced with hashed password
+      is_email_verified: True
+    azakariyau:
+      email: azakariyau@axamansard.com
+      name: Abdulwahab Zakariyau
+      password: def # To be replaced with hashed password
+      is_email_verified: True
+cookie:
+  expiry_days: 30
+  key: xyz # Must be a string
+  name: random_cookie_name
+preauthorized:
+  emails: admin@axamansard.com
+oauth2: # Optional
+  google: # Follow instructions: https://developers.google.com/identity/protocols/oauth2
+    client_id: # To be filled
+    client_secret: # To be filled
+    redirect_uri: # URL to redirect to after OAuth2 authentication
+  microsoft: # Follow instructions: https://learn.microsoft.com/en-us/graph/auth-register-app-v2
+    client_id: # To be filled
+    client_secret: # To be filled
+    redirect_uri: # URL to redirect to after OAuth2 authentication
+    tenant_id: # To be filled
+pre-authorized: # Optional
+  emails: admin@axamansard.com
+api_key: # Optional - register to receive a free API key: https://stauthenticator.com
